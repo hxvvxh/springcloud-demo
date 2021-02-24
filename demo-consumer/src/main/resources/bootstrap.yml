@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: demo-consumer
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: 55fe0d85-6fdb-44f6-a8c1-b6b7ed9d8311
+        enabled: true
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yaml
+        ext-config:
+          - dataId: hp-consumer.yaml
+            group: DEFAULT_GROUP
+        namespace: 55fe0d85-6fdb-44f6-a8c1-b6b7ed9d8311
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8080
+      filter:
+        enabled: true
