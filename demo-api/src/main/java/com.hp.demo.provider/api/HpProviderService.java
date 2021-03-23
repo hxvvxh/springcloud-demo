@@ -1,6 +1,9 @@
 package com.hp.demo.provider.api;
 
+import com.hp.demo.provider.autoconfigure.FeignConfiguration;
+import com.hp.demo.provider.fallback.HpProviderFallback;
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -9,10 +12,13 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @version 1.0
  * @date 2021/1/13 21:49
  */
-@FeignClient(name = "demo-provider",path = "/api/hp/provider")
+@FeignClient(name = "demo-provider",
+        path = "/api/hp/provider",
+        fallback = HpProviderFallback.class,
+        configuration = FeignConfiguration.class)
 public interface HpProviderService {
 
 
-    @GetMapping(value = "/getCount")
-    Integer getCount(@RequestParam(name = "count") Integer count);
+    @GetMapping(value = "/getCount",produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+    String getCount(@RequestParam(name = "count") Integer count);
 }

@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06f37baf-a15a-443e-8425-6802f5fe811c" name="Default Changelist" comment="" />
+    <list default="true" id="06f37baf-a15a-443e-8425-6802f5fe811c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-api/src/main/java/com.hp.demo.provider/api/HpProviderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-api/src/main/java/com.hp.demo.provider/api/HpProviderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-api/target/classes/com/hp/demo/provider/api/HpProviderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo-api/target/classes/com/hp/demo/provider/api/HpProviderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/ConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/contorller/HpConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/contorller/HpConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-consumer/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-consumer/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/contorller/HpProviderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/contorller/HpProviderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/service/HpProviderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/service/HpProviderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-provider/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-provider/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/demo-provider/target/" />
     <ignored path="$PROJECT_DIR$/demo-consumer/target/" />
     <ignored path="$PROJECT_DIR$/demo-api/target/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,28 +41,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-consumer/pom.xml">
+        <entry file="file://$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/filter/RestfulUrlCleaner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            <state relative-caret-position="624">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-dependencies/0.9.0.RELEASE/spring-cloud-alibaba-dependencies-0.9.0.RELEASE.pom">
+        <entry file="file://$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/filter/SentinelAutoConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="22" column="14" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="14" />
+            <state relative-caret-position="1184">
+              <caret line="58" column="29" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/filter/SpringCommonFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -65,29 +99,71 @@
       <find>dataid</find>
       <find>/api/hp/provider</find>
       <find>filter</find>
-      <find>blockHandler1</find>
       <find>nacos</find>
+      <find>com.alibaba.cloud</find>
+      <find>spring-cloud-starter-alibaba-sentinel</find>
+      <find>getTest1[]</find>
+      <find>configureMessageConverters</find>
+      <find>MyWebmvcConfiguration</find>
+      <find>loadbalancer</find>
+      <find>rule</find>
+      <find>ping</find>
+      <find>SpringCommonFilter</find>
+      <find>guava</find>
+      <find>HpSlot init</find>
+      <find>DefaultSlotChainBuilder</find>
+      <find>blockHandler1</find>
+      <find>fallback1</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\workspace\springcloud-demo\demo-api\src\main\java\com.hp.demo.provider\api</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="2.x" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/api/HpProviderService.java" />
-        <option value="$PROJECT_DIR$/demo-api/pom.xml" />
-        <option value="$PROJECT_DIR$/demo-api/src/main/java/com.hp.demo.provider/api/HpProviderService.java" />
         <option value="$PROJECT_DIR$/demo-api/src/main/java/com.hp.demo.provider/api/HpConsumerService.java" />
-        <option value="$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/contorller/HpProviderController.java" />
         <option value="$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/ProviderApplication.java" />
-        <option value="$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/ConsumerApplication.java" />
-        <option value="$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/service/HpProviderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/demo-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/demo-provider/src/main/resources/banner.txt" />
         <option value="$PROJECT_DIR$/demo-consumer/src/main/resources/banner.txt" />
-        <option value="$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/contorller/HpConsumerController.java" />
-        <option value="$PROJECT_DIR$/demo-provider/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/demo-consumer/src/main/resources/bootstrap.yml" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/ConsumerApplication.http" />
+        <option value="$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/service/HpProviderFallback.java" />
+        <option value="$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/autoconfigure/FeignConfiguration.java" />
+        <option value="$PROJECT_DIR$/demo-api/src/main/resources/META-INF/spring.factories" />
+        <option value="$PROJECT_DIR$/demo-api/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/autoconfigration/MessageConverterAuto.java" />
+        <option value="$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/autoconfigration/MyWebmvcConfiguration.java" />
+        <option value="$PROJECT_DIR$/demo-api/src/main/java/com.hp.demo.provider/api/HpProviderService.java" />
+        <option value="$PROJECT_DIR$/demo-api/src/main/java/com.hp.demo.provider/fallback/HpProviderFallback.java" />
+        <option value="$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/service/HpProviderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/contorller/HpProviderController.java" />
         <option value="$PROJECT_DIR$/demo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/ConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/filter/RestfulUrlCleaner.java" />
+        <option value="$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/filter/SentinelAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/demo-provider/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/contorller/HpConsumerController.java" />
+        <option value="$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/HpSlot.java" />
+        <option value="$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/slot/HpSlot.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-consumer/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.slotchain.SlotChainBuilder" />
+        <option value="$PROJECT_DIR$/demo-consumer/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.slotchain.ProcessorSlot" />
+        <option value="$PROJECT_DIR$/demo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/slot/HpSlotChainBuilder.java" />
+        <option value="$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/filter/SpringCommonFilter.java" />
+        <option value="$PROJECT_DIR$/demo-consumer/src/main/resources/bootstrap.yml" />
       </list>
     </option>
   </component>
@@ -104,19 +180,26 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="306" />
-    <option name="y" value="180" />
-    <option name="width" value="1851" />
-    <option name="height" value="1080" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,30 +211,64 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo-consumer/src/main/resources/META-INF/services" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hp.demo.provider.api" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\springcloud-demo\demo-consumer\src\main\resources\META-INF\services" />
+      <recent name="E:\workspace\springcloud-demo\demo-consumer\src\main\resources\META-INF" />
       <recent name="E:\workspace\springcloud-demo\demo-consumer\src\main\resources" />
-      <recent name="E:\workspace\springcloud-demo\demo-consumer\src\main\java" />
-      <recent name="E:\workspace\springcloud-demo\demo-api\src\main\java" />
+      <recent name="E:\workspace\springcloud-demo\demo-api\src\main" />
       <recent name="E:\workspace\springcloud-demo\demo-provider\src\main\resources" />
     </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8282/api/hp/hpConsumer/getProviderCount" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="count" />
+                <option name="value" value="102" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8282/api/hp/hpConsumer/getProviderCount" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -165,12 +282,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConsumerApplication">
+  <component name="RunManager" selected="Spring Boot.ProviderApplication">
+    <configuration name="RestfulUrlCleaner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hp.demo.provider.filter.RestfulUrlCleaner" />
+      <module name="demo-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hp.demo.provider.filter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/ConsumerApplication.http">
+      <method v="2" />
+    </configuration>
     <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="demo-consumer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hp.demo.provider.*" />
+          <option name="PATTERN" value="com.hp.demo.provider.slot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,18 +316,48 @@
       <module name="demo-provider" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hp.demo.provider.*" />
+          <option name="PATTERN" value="com.hp.demo.provider.slot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hp.demo.provider.ProviderApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=9000" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="p2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hp.demo.provider.ProviderApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=9001" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p3" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hp.demo.provider.ProviderApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=9002" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.RestfulUrlCleaner" />
+      <item itemvalue="HTTP Request.ConsumerApplication#1" />
+      <item itemvalue="Spring Boot.p3" />
+      <item itemvalue="Spring Boot.p2" />
+      <item itemvalue="Spring Boot.ConsumerApplication" />
+      <item itemvalue="Spring Boot.ProviderApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ProviderApplication" />
+        <item itemvalue="Application.RestfulUrlCleaner" />
+        <item itemvalue="HTTP Request.ConsumerApplication#1" />
       </list>
     </recent_temporary>
   </component>
@@ -217,17 +380,30 @@
       <workItem from="1613293604621" duration="5960000" />
       <workItem from="1614091126201" duration="74000" />
       <workItem from="1614174652996" duration="1959000" />
+      <workItem from="1614262173976" duration="5008000" />
+      <workItem from="1615727458558" duration="443000" />
+      <workItem from="1615988653944" duration="3252000" />
+      <workItem from="1616076674486" duration="2827000" />
+      <workItem from="1616415208960" duration="9335000" />
+      <workItem from="1616487004940" duration="6924000" />
     </task>
+    <task id="LOCAL-00001" summary="2.1.6">
+      <created>1614178768591</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614178768591</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20169000" />
+    <option name="totallyTimeSpent" value="48571000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1647" height="975" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21334173" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21447721" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -237,23 +413,23 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49407583" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.471564" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5141643" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34135976" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.38033175" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.37895417" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32924467" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32924467" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -266,20 +442,118 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2.1.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.1.6" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/contorller/HpConsumerController.java</url>
-          <line>38</line>
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-sentinel-datasource/0.9.0.RELEASE/spring-cloud-alibaba-sentinel-datasource-0.9.0.RELEASE-sources.jar!/org/springframework/cloud/alibaba/sentinel/datasource/converter/SentinelConverter.java</url>
+          <line>58</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/contorller/HpConsumerController.java</url>
-          <line>43</line>
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-sentinel-datasource/0.9.0.RELEASE/spring-cloud-alibaba-sentinel-datasource-0.9.0.RELEASE-sources.jar!/org/springframework/cloud/alibaba/sentinel/datasource/converter/SentinelConverter.java</url>
+          <line>63</line>
           <properties />
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-sentinel-datasource/0.9.0.RELEASE/spring-cloud-alibaba-sentinel-datasource-0.9.0.RELEASE-sources.jar!/org/springframework/cloud/alibaba/sentinel/datasource/converter/SentinelConverter.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/CtSph.java</url>
+          <line>135</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/slotchain/SlotChainProvider.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/CtSph.java</url>
+          <line>204</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/CtSph.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/CtSph.java</url>
+          <line>113</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/CtSph.java</url>
+          <line>316</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/SphU.java</url>
+          <line>253</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/CtSph.java</url>
+          <line>322</line>
+          <properties />
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -290,329 +564,419 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-ribbon/2.1.0.RELEASE/spring-cloud-netflix-ribbon-2.1.0.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/SpringClientFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="135" column="42" selection-start-line="135" selection-start-column="42" selection-end-line="135" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-nacos-discovery/0.9.0.RELEASE/spring-cloud-alibaba-nacos-discovery-0.9.0.RELEASE.jar!/org/springframework/cloud/alibaba/nacos/NacosDiscoveryProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="113" column="16" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="16" />
+        <state relative-caret-position="863">
+          <caret line="56" column="20" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
           <folding>
-            <element signature="e#4147#4148#0" expanded="true" />
-            <element signature="e#4189#4190#0" expanded="true" />
+            <element signature="e#1978#1979#0" expanded="true" />
+            <element signature="e#2030#2031#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-nacos-config/0.9.0.RELEASE/spring-cloud-alibaba-nacos-config-0.9.0.RELEASE.jar!/org/springframework/cloud/alibaba/nacos/NacosConfigProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="161" column="58" selection-start-line="161" selection-start-column="58" selection-end-line="161" selection-end-column="58" />
-          <folding>
-            <element signature="e#3946#3947#0" expanded="true" />
-            <element signature="e#3988#3989#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.6.RELEASE/spring-web-5.1.6.RELEASE.jar!/org/springframework/web/bind/annotation/RequestParam.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/context/annotation/ComponentScan.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-api/src/main/java/com.hp.demo.provider/service/HpProviderServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/demo-api/src/main/java/com.hp.demo.provider/contorller/HpProviderController.java" />
-    <entry file="file://$PROJECT_DIR$/demo-api/src/main/java/com.hp.demo.provider/ProviderApplication.java" />
-    <entry file="file://$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/api/HpProviderService.java" />
-    <entry file="file://$PROJECT_DIR$/demo-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.0.RELEASE/spring-cloud-openfeign-core-2.1.0.RELEASE.jar!/org/springframework/cloud/openfeign/FeignClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-api/src/main/java/com.hp.demo.provider/api/HpConsumerService.java" />
-    <entry file="file://$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/contorller/HpProviderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-api/src/main/java/com.hp.demo.provider/api/HpProviderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/service/HpProviderServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/service/HpProviderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-consumer/demo-consumer.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.1.4.RELEASE/spring-boot-dependencies-2.1.4.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="289" selection-start-line="289" selection-end-line="289" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-sentinel/0.9.0.RELEASE/spring-cloud-alibaba-sentinel-0.9.0.RELEASE.jar!/org/springframework/cloud/alibaba/sentinel/SentinelProperties.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="197" column="20" selection-start-line="197" selection-start-column="20" selection-end-line="197" selection-end-column="20" />
+        <state relative-caret-position="274">
+          <caret line="135" column="25" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="25" />
           <folding>
-            <element signature="e#5095#5096#0" expanded="true" />
-            <element signature="e#5145#5146#0" expanded="true" />
+            <element signature="e#4265#4266#0" expanded="true" />
+            <element signature="e#4311#4312#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-cluster-server-default/1.5.2/sentinel-cluster-server-default-1.5.2.jar!/META-INF/services/com.alibaba.csp.sentinel.cluster.codec.request.RequestEntityDecoder">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-sentinel/0.9.0.RELEASE/spring-cloud-alibaba-sentinel-0.9.0.RELEASE-sources.jar!/org/springframework/cloud/alibaba/sentinel/SentinelWebAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="62" selection-start-column="62" selection-end-column="62" />
+        <state relative-caret-position="728">
+          <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-cluster-server-default/1.5.2/sentinel-cluster-server-default-1.5.2.jar!/com/alibaba/csp/sentinel/cluster/server/codec/DefaultRequestEntityDecoder.class">
+    <entry file="file://$PROJECT_DIR$/demo-provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="702">
+          <caret line="26" selection-start-line="26" selection-end-line="29" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-cluster-server-default/1.5.2/sentinel-cluster-server-default-1.5.2.jar!/META-INF/maven/com.alibaba.csp/sentinel-cluster-server-default/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2.jar!/com/alibaba/csp/sentinel/context/NullContext.class">
+    <entry file="file://$PROJECT_DIR$/demo-api/target/classes/com/hp/demo/provider/api/HpProviderService.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2.jar!/com/alibaba/csp/sentinel/annotation/SentinelResource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2.jar!/META-INF/services/com.alibaba.csp.sentinel.slotchain.SlotChainBuilder">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2.jar!/com/alibaba/csp/sentinel/slotchain/SlotChainBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2.jar!/com/alibaba/csp/sentinel/slotchain/ResourceWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2.jar!/com/alibaba/csp/sentinel/slotchain/StringResourceWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2.jar!/com/alibaba/csp/sentinel/node/EntranceNode.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state relative-caret-position="540">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding>
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2.jar!/com/alibaba/csp/sentinel/Constants.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2.jar!/com/alibaba/csp/sentinel/node/DefaultNode.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="41" column="57" lean-forward="true" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2.jar!/com/alibaba/csp/sentinel/context/ContextUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="143" column="19" lean-forward="true" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2.jar!/com/alibaba/csp/sentinel/slots/DefaultSlotChainBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2.jar!/com/alibaba/csp/sentinel/slotchain/AbstractLinkedProcessorSlot.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2.jar!/com/alibaba/csp/sentinel/slotchain/DefaultProcessorSlotChain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding>
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#909#910#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/ProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#813#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo-provider/src/main/resources/banner.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        <state relative-caret-position="28">
+          <caret line="1" column="47" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-provider/src/main/resources/bootstrap.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/EntryType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="216">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/resources/banner.txt">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/annotation/SentinelResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="68" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
+        <state relative-caret-position="662">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-provider/pom.xml">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        <state relative-caret-position="1436">
+          <caret line="1183" column="43" selection-start-line="1183" selection-start-column="43" selection-end-line="1183" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/contorller/HpConsumerController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-datasource-extension/1.5.2/sentinel-datasource-extension-1.5.2.jar!/com/alibaba/csp/sentinel/datasource/AbstractDataSource.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        <state relative-caret-position="578">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/ConsumerApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-datasource-extension/1.5.2/sentinel-datasource-extension-1.5.2.jar!/com/alibaba/csp/sentinel/datasource/Converter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        <state relative-caret-position="140">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/resources/bootstrap.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-sentinel-datasource/0.9.0.RELEASE/spring-cloud-alibaba-sentinel-datasource-0.9.0.RELEASE-sources.jar!/org/springframework/cloud/alibaba/sentinel/datasource/RuleType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        <state relative-caret-position="325">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-consumer/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-sentinel-datasource/0.9.0.RELEASE/spring-cloud-alibaba-sentinel-datasource-0.9.0.RELEASE-sources.jar!/org/springframework/cloud/alibaba/sentinel/datasource/config/NacosDataSourceProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="-853">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-sentinel-datasource/0.9.0.RELEASE/spring-cloud-alibaba-sentinel-datasource-0.9.0.RELEASE-sources.jar!/org/springframework/cloud/alibaba/sentinel/datasource/config/DataSourcePropertiesConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/config/SentinelConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="41" column="73" selection-start-line="41" selection-start-column="73" selection-end-line="41" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-sentinel/0.9.0.RELEASE/spring-cloud-alibaba-sentinel-0.9.0.RELEASE-sources.jar!/org/springframework/cloud/alibaba/sentinel/SentinelProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1135">
+          <caret line="151" column="16" selection-start-line="151" selection-start-column="16" selection-end-line="151" selection-end-column="16" />
+          <folding>
+            <element signature="e#3685#3686#0" expanded="true" />
+            <element signature="e#3720#3721#0" expanded="true" />
+            <element signature="e#4059#4060#0" expanded="true" />
+            <element signature="e#4096#4097#0" expanded="true" />
+            <element signature="e#6897#6898#0" expanded="true" />
+            <element signature="e#6923#6924#0" expanded="true" />
+            <element signature="e#7253#7254#0" expanded="true" />
+            <element signature="e#7284#7285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-sentinel-datasource/0.9.0.RELEASE/spring-cloud-alibaba-sentinel-datasource-0.9.0.RELEASE-sources.jar!/org/springframework/cloud/alibaba/sentinel/datasource/converter/SentinelConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.1.0.RELEASE/spring-cloud-openfeign-core-2.1.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3862">
           <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.init.InitFunc" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0-sources.jar!/com/google/common/util/concurrent/RateLimiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="332" column="17" selection-start-line="332" selection-start-column="17" selection-end-line="332" selection-end-column="17" />
+          <folding>
+            <element signature="e#14599#14600#0" expanded="true" />
+            <element signature="e#14646#14647#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-dependencies/0.9.0.RELEASE/spring-cloud-alibaba-dependencies-0.9.0.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="14" />
+        <state relative-caret-position="8876">
+          <caret line="322" column="27" selection-start-line="322" selection-start-column="27" selection-end-line="322" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/slots/nodeselector/NodeSelectorSlot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="124" column="13" selection-start-line="124" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2.jar!/META-INF/services/com.alibaba.csp.sentinel.slotchain.SlotChainBuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/slotchain/DefaultProcessorSlotChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-398">
+          <caret line="38" column="5" selection-start-line="25" selection-start-column="85" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="e#2095#2096#0" expanded="true" />
+            <element signature="e#2124#2125#0" expanded="true" />
+            <element signature="e#2193#2194#0" expanded="true" />
+            <element signature="e#2231#2232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/SphU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="253" column="32" lean-forward="true" selection-start-line="253" selection-start-column="32" selection-end-line="253" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/Sph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="170" selection-start-line="170" selection-end-line="170" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/slots/block/flow/FlowSlot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="135" column="43" lean-forward="true" selection-start-line="135" selection-start-column="43" selection-end-line="135" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/slots/statistic/StatisticSlot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/slotchain/AbstractLinkedProcessorSlot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="23" column="77" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/slotchain/ProcessorSlot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/slotchain/SlotChainProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="896">
+          <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/ProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/CtSph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-provider/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/autoconfigration/MyWebmvcConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="428">
+          <caret line="65" column="33" lean-forward="true" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-api/src/main/java/com.hp.demo.provider/api/HpProviderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/service/HpProviderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <marker date="1616500175013" expanded="true" signature="1251:1416" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/contorller/HpConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/slotchain/ProcessorSlotChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/ConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/slot/HpSlotChainBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/slots/DefaultSlotChainBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.slotchain.SlotChainBuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.slotchain.ProcessorSlot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/slot/HpSlot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/filter/RestfulUrlCleaner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/filter/SentinelAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1184">
+          <caret line="58" column="29" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/filter/SpringCommonFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
         </state>
       </provider>
     </entry>

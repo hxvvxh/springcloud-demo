@@ -3,8 +3,12 @@ package com.hp.demo.provider;
 import com.google.common.base.Stopwatch;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.alibaba.sentinel.annotation.SentinelRestTemplate;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.cloud.openfeign.EnableFeignClients;
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.client.RestTemplate;
 
 /**
  * @author hp
@@ -19,5 +23,13 @@ public class ConsumerApplication {
         Stopwatch stopwatch=Stopwatch.createStarted();
         SpringApplication.run(ConsumerApplication.class,args);
         System.out.println("Consumer Starter Up : " + stopwatch);
+    }
+
+
+    @Bean
+    @LoadBalanced
+    @SentinelRestTemplate
+    public RestTemplate restTemplate(){
+        return new RestTemplate();
     }
 }

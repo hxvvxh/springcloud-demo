@@ -1,0 +1,12 @@
+GET http://localhost:8282/api/hp/hpConsumer/getProviderCount?count=102
+
+<> 2021-02-25T104327.200.json
+
+###
+
+GET http://localhost:8282/api/hp/hpConsumer/getProviderCount
+
+<> 2021-02-25T104220.400.json
+
+###
+

@@ -19,7 +19,7 @@ public class HpProviderController {
     private HpProviderService hpProviderService;
 
     @GetMapping("/getCount")
-    public Integer getCount(@RequestParam(value = "count") Integer count){
+    public String getCount(@RequestParam(value = "count") Integer count){
         return hpProviderService.getCount(count);
     }
 }

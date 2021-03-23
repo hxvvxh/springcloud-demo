@@ -24,18 +24,30 @@
             <groupId>com.hp.springcloud</groupId>
             <artifactId>demo-api</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.hp.springcloud</groupId>
-            <artifactId>demo-api</artifactId>
-        </dependency>
+        <!-- Sentinel -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
         </dependency>
+        <!--sentinel指定nacos为数据源 -->
+<!--        <dependency>-->
+<!--            <groupId>com.alibaba.csp</groupId>-->
+<!--            <artifactId>sentinel-datasource-nacos</artifactId>-->
+<!--        </dependency>-->
+
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-annotation-aspectj</artifactId>
+        </dependency>
+        <!-- 用于查看Sentinel客户端相关规则 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.31</version>
+        </dependency>
     </dependencies>
-
 </project>

@@ -1,5 +1,6 @@
 package com.hp.demo.provider.contorller;
 
+import com.alibaba.csp.sentinel.EntryType;
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
 import com.hp.demo.provider.api.HpProviderService;
@@ -21,28 +22,45 @@ public class HpConsumerController {
     private HpProviderService hpProviderService;
 
     @GetMapping("/getProviderCount")
-    public Integer getCount(@RequestParam(value = "count") Integer count){
+    public String getCount(@RequestParam(value = "count") Integer count){
         return hpProviderService.getCount(count);
     }
 
-    @GetMapping("/getTest1")
+    @GetMapping("/getTestHp")
     @SentinelResource(
-            value = "getTest1",
+            value = "getTest",
             blockHandler = "blockHandler1",
+            entryType = EntryType.OUT
+    )
+    public String getTestBlockHandler(@RequestParam(value = "count") Integer count){
+        return hpProviderService.getCount(count);
+    }
+
+    /**
+     *
+     * @param count
+     * @return
+     */
+    @GetMapping("/getTestFallback")
+    @SentinelResource(
+            value = "getTestFallback",
             fallback = "fallback1"
     )
-    public Integer getTest1(@RequestParam(value = "count") Integer count){
-        return hpProviderService.getCount(count);
+    public String getTestFallback(@RequestParam(value = "count") Integer count){
+        throw new RuntimeException("hahaha");
     }
 
-    public Integer blockHandler1(Integer count){
+    public String blockHandler1(Integer count,BlockException ex){
         System.out.println("getTest1[] blockHandler1[] count"+ count);
-        return 100000;
+        return "blockHandler";
     }
 
-    public Integer fallback1(Integer count, BlockException e){
+    public String fallback1(Integer count){
         System.out.println("getTest1[] fallback1[] count"+ count);
-        return -1;
+        return "fallback";
     }
+
+
+
 
 }

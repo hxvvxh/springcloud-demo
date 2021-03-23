@@ -16,8 +16,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/api/hp/provider")
 public class HpProviderServiceImpl implements HpProviderService {
     @Override
-    public Integer getCount(@RequestParam(name = "count") Integer count) {
+    public String getCount(@RequestParam(name = "count") Integer count) {
         System.out.println("HpProviderService[] getCount[] count:"+ count);
-        return count+1;
+        Integer i=count+1;
+        return i.toString();
     }
 }
