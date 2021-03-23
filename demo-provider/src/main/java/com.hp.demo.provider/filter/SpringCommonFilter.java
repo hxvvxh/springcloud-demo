@@ -30,7 +30,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
-
 /**
  * sentinel RESTful接口优化-针对PathVariable 这种情况
  *    /api/v1/{accountId}/xx
