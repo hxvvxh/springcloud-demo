@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06f37baf-a15a-443e-8425-6802f5fe811c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/contorller/HpConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/contorller/HpConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/slot/HpSlotChainBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/slot/HpSlotChainBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-consumer/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-consumer/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/filter/SpringCommonFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/filter/SpringCommonFilter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/filter/RestfulUrlCleaner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1736">
+            <state relative-caret-position="2016">
               <caret line="76" selection-start-line="76" selection-end-line="76" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -40,19 +43,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.21/tomcat-embed-core-9.0.21-sources.jar!/javax/servlet/Filter.java">
+        <entry file="file://$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/filter/SentinelAutoConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="784">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,8 +57,66 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/filter/SpringCommonFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+            <state relative-caret-position="194">
+              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/contorller/HpConsumerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/autoconfigration/MyWebmvcConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="403">
+                <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/slot/HpSlot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-212">
+              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/slot/HpSlotChainBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,15 +195,16 @@
         <option value="$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/filter/RestfulUrlCleaner.java" />
         <option value="$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/filter/SentinelAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/demo-provider/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/contorller/HpConsumerController.java" />
         <option value="$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/HpSlot.java" />
         <option value="$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/slot/HpSlot.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/demo-consumer/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.slotchain.SlotChainBuilder" />
         <option value="$PROJECT_DIR$/demo-consumer/src/main/resources/META-INF/services/com.alibaba.csp.sentinel.slotchain.ProcessorSlot" />
         <option value="$PROJECT_DIR$/demo-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/slot/HpSlotChainBuilder.java" />
         <option value="$PROJECT_DIR$/demo-consumer/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/contorller/HpConsumerController.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/slot/HpSlotChainBuilder.java" />
         <option value="$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/filter/SpringCommonFilter.java" />
       </list>
     </option>
@@ -173,10 +229,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="x" value="230" />
+    <option name="y" value="135" />
+    <option name="width" value="1385" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -186,7 +242,145 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.hp.demo.provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.hp.demo.provider" type="462c0819:PsiDirectoryNode" />
+              <item name="autoconfigration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.hp.demo.provider" type="462c0819:PsiDirectoryNode" />
+              <item name="contorller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.hp.demo.provider" type="462c0819:PsiDirectoryNode" />
+              <item name="slot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.hp.demo.provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.hp.demo.provider" type="462c0819:PsiDirectoryNode" />
+              <item name="contorller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.hp.demo.provider" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -200,7 +394,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo-consumer/src/main/resources/META-INF/services" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -210,11 +404,11 @@
       <recent name="com.hp.demo.provider.api" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\springcloud-demo" />
       <recent name="E:\workspace\springcloud-demo\demo-consumer\src\main\resources\META-INF\services" />
       <recent name="E:\workspace\springcloud-demo\demo-consumer\src\main\resources\META-INF" />
       <recent name="E:\workspace\springcloud-demo\demo-consumer\src\main\resources" />
       <recent name="E:\workspace\springcloud-demo\demo-api\src\main" />
-      <recent name="E:\workspace\springcloud-demo\demo-provider\src\main\resources" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -362,7 +556,7 @@
       <workItem from="1616076674486" duration="2827000" />
       <workItem from="1616415208960" duration="9335000" />
       <workItem from="1616487004940" duration="6924000" />
-      <workItem from="1616507290221" duration="232000" />
+      <workItem from="1616507290221" duration="1850000" />
     </task>
     <task id="LOCAL-00001" summary="2.1.6">
       <created>1614178768591</created>
@@ -375,7 +569,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48803000" />
+    <option name="totallyTimeSpent" value="50421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -542,24 +736,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-sentinel/0.9.0.RELEASE/spring-cloud-alibaba-sentinel-0.9.0.RELEASE.jar!/org/springframework/cloud/alibaba/sentinel/SentinelProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="135" column="25" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="25" />
-          <folding>
-            <element signature="e#4265#4266#0" expanded="true" />
-            <element signature="e#4311#4312#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-alibaba-sentinel/0.9.0.RELEASE/spring-cloud-alibaba-sentinel-0.9.0.RELEASE-sources.jar!/org/springframework/cloud/alibaba/sentinel/SentinelWebAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo-provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
@@ -574,13 +750,6 @@
           <folding>
             <element signature="e#0#813#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-provider/src/main/resources/banner.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="47" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -793,20 +962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-provider/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/autoconfigration/MyWebmvcConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo-api/src/main/java/com.hp.demo.provider/api/HpProviderService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -837,16 +992,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/contorller/HpConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.5.2/sentinel-core-1.5.2-sources.jar!/com/alibaba/csp/sentinel/slotchain/ProcessorSlotChain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -858,16 +1003,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/slot/HpSlotChainBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -892,24 +1027,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/slot/HpSlot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -924,17 +1041,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/filter/SentinelAutoConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/demo-provider/src/main/resources/banner.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="644">
+          <caret line="23" column="40" lean-forward="true" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-provider/demo-provider.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-provider/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="403">
+            <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/slot/HpSlot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-212">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/slot/HpSlotChainBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/contorller/HpConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-consumer/src/main/java/com.hp.demo.provider/autoconfigration/MyWebmvcConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/filter/RestfulUrlCleaner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1736">
+        <state relative-caret-position="2016">
           <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/filter/SentinelAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -943,8 +1135,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo-provider/src/main/java/com.hp.demo.provider/filter/SpringCommonFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        <state relative-caret-position="194">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

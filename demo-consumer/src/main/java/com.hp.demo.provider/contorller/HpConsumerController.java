@@ -26,6 +26,11 @@ public class HpConsumerController {
         return hpProviderService.getCount(count);
     }
 
+    /**
+     * 限流
+     * @param count
+     * @return
+     */
     @GetMapping("/getTestHp")
     @SentinelResource(
             value = "getTest",
@@ -37,7 +42,7 @@ public class HpConsumerController {
     }
 
     /**
-     *
+     * 降级
      * @param count
      * @return
      */

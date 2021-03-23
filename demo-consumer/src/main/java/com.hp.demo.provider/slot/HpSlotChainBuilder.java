@@ -30,7 +30,7 @@ public class HpSlotChainBuilder implements SlotChainBuilder {
         chain.addLast(new FlowSlot());
         chain.addLast(new DegradeSlot());
 
-        //
+        //自定义
         chain.addLast(new HpSlot());
         return chain;
     }
