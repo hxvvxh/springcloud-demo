@@ -4,7 +4,7 @@
 
 #### 一：启动nacos服务
 
-​		http://127.0.0.1:8848/nacos/#/login
+nacos控制台地址 http://127.0.0.1:8848/nacos/#/login
 
 #### 二：nacos添加配置文件
 
@@ -69,7 +69,7 @@ hp-flow-rules.json
 
 ​		mvn package 得到jar包后。java -jar sentinel-dashboard.jar 启动控制台
 
-​		http://127.0.0.1:8080/#/dashboard/home
+​		sentinel控制台址 http://127.0.0.1:8080/#/dashboard/home
 
 ​		控制台配置限流降级策略
 
