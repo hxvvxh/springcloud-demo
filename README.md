@@ -79,9 +79,9 @@ hp-flow-rules.json
 
 ​		限流测试 http://127.0.0.1:8282/api/hp/hpConsumer/getTestHp?count=1
 
- 	    降级测试 http://127.0.0.1:8282/api/hp/hpConsumer/getTestFallback?count=1
+​		降级测试 http://127.0.0.1:8282/api/hp/hpConsumer/getTestFallback?count=1
 
 #### 六：源码分析
-     https://github.com/alibaba/Sentinel/blob/master/sentinel-core/src/main/java/com/alibaba/csp/sentinel/SphU.java
+​	 https://github.com/alibaba/Sentinel/blob/master/sentinel-core/src/main/java/com/alibaba/csp/sentinel/SphU.java
      
-     com.alibaba.csp.sentinel.SphU.entry(java.lang.String)    	    
+   分析入口: com.alibaba.csp.sentinel.SphU.entry(java.lang.String)    	    
