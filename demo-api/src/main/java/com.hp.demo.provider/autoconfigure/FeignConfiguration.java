@@ -1,6 +1,6 @@
 package com.hp.demo.provider.autoconfigure;
 
-import com.hp.demo.provider.fallback.HpProviderFallback;
+import com.hp.demo.provider.fallback.HpProviderFeignFallback;
 import org.springframework.context.annotation.Bean;
 
 /**
@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Bean;
 public class FeignConfiguration {
 
     @Bean
-    public HpProviderFallback hpProviderFallback(){
-        return new HpProviderFallback();
+    public HpProviderFeignFallback hpProviderFallback(){
+        return new HpProviderFeignFallback();
     }
 }

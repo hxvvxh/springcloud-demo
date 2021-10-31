@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "cache",
+      "type": "com.hp.demo.provider.config.redis.RedisCacheProperties",
+      "sourceType": "com.hp.demo.provider.config.redis.RedisCacheProperties"
+    },
+    {
+      "name": "hp.provider",
+      "type": "com.hp.demo.provider.config.ProviderProperties",
+      "sourceType": "com.hp.demo.provider.config.ProviderProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "cache.default-expire-time",
+      "type": "java.lang.Integer",
+      "sourceType": "com.hp.demo.provider.config.redis.RedisCacheProperties"
+    },
+    {
+      "name": "cache.user-cache-expire-time",
+      "type": "java.lang.Integer",
+      "sourceType": "com.hp.demo.provider.config.redis.RedisCacheProperties"
+    },
+    {
+      "name": "cache.user-cache-name",
+      "type": "java.lang.String",
+      "sourceType": "com.hp.demo.provider.config.redis.RedisCacheProperties"
+    },
+    {
+      "name": "hp.provider.app-name",
+      "type": "java.lang.String",
+      "sourceType": "com.hp.demo.provider.config.ProviderProperties"
+    },
+    {
+      "name": "hp.provider.switchs",
+      "type": "java.lang.String",
+      "sourceType": "com.hp.demo.provider.config.ProviderProperties"
+    }
+  ],
+  "hints": []
+}

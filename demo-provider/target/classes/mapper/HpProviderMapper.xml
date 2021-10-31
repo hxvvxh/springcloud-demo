@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hp.demo.provider.dao.mapper.HpProvideDo">
+
+    <resultMap id="HpProvider" type="com.hp.demo.provider.dao.entity.HpProviderEntity">
+        <id column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="pass" property="pass"/>
+        <result column="create_at" property="createAt"/>
+    </resultMap>
+    <sql id="exclude-column">
+        `name`,pass,create_at
+    </sql>
+    <sql id="table">
+        hp_provider
+    </sql>
+    <sql id="all">
+        id,
+        <include refid="exclude-column"/>
+    </sql>
+
+    <insert id="insert" parameterType="com.hp.demo.provider.dao.entity.HpProviderEntity" keyColumn="id" useGeneratedKeys="true">
+        INSERT INTO
+        <include refid="table"/>(
+        <include refid="exclude-column"/>
+        )
+        values(#{name},#{pass},now())
+    </insert>
+
+    <select id="getById" parameterType="java.lang.Long" resultMap="HpProvider">
+        select
+        <include refid="all"/>
+        from
+        <include refid="table"/>
+        where id = #{id}
+    </select>
+
+</mapper>

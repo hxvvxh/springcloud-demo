@@ -1,7 +1,7 @@
 package com.hp.demo.provider.api;
 
 import com.hp.demo.provider.autoconfigure.FeignConfiguration;
-import com.hp.demo.provider.fallback.HpProviderFallback;
+import com.hp.demo.provider.fallback.HpProviderFeignFallback;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestParam;
  */
 @FeignClient(name = "demo-provider",
         path = "/api/hp/provider",
-        fallback = HpProviderFallback.class,
+        fallback = HpProviderFeignFallback.class,
         configuration = FeignConfiguration.class)
-public interface HpProviderService {
+public interface HpProviderFeignService {
 
 
     @GetMapping(value = "/getCount",produces = MediaType.APPLICATION_JSON_UTF8_VALUE)

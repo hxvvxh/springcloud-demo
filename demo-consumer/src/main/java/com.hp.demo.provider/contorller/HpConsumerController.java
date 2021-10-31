@@ -3,7 +3,7 @@ package com.hp.demo.provider.contorller;
 import com.alibaba.csp.sentinel.EntryType;
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
-import com.hp.demo.provider.api.HpProviderService;
+import com.hp.demo.provider.api.HpProviderFeignService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,11 +19,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/hp/hpConsumer")
 public class HpConsumerController {
     @Autowired
-    private HpProviderService hpProviderService;
+    private HpProviderFeignService hpProviderFeignService;
 
     @GetMapping("/getProviderCount")
     public String getCount(@RequestParam(value = "count") Integer count){
-        return hpProviderService.getCount(count);
+        return hpProviderFeignService.getCount(count);
     }
 
     /**
@@ -38,7 +38,7 @@ public class HpConsumerController {
             entryType = EntryType.OUT
     )
     public String getTestBlockHandler(@RequestParam(value = "count") Integer count){
-        return hpProviderService.getCount(count);
+        return hpProviderFeignService.getCount(count);
     }
 
     /**

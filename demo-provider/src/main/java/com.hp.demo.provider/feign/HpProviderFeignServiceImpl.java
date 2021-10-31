@@ -1,6 +1,6 @@
-package com.hp.demo.provider.service;
+package com.hp.demo.provider.feign;
 
-import com.hp.demo.provider.api.HpProviderService;
+import com.hp.demo.provider.api.HpProviderFeignService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @ResponseBody
 @RequestMapping(value = "/api/hp/provider")
-public class HpProviderServiceImpl implements HpProviderService {
+public class HpProviderFeignServiceImpl implements HpProviderFeignService {
     @Override
     public String getCount(@RequestParam(name = "count") Integer count) {
         System.out.println("HpProviderService[] getCount[] count:"+ count);
